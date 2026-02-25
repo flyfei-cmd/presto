@@ -10,7 +10,7 @@
 
     <groupId>com.facebook.presto</groupId>
     <artifactId>presto-root</artifactId>
-    <version>0.276-SNAPSHOT</version>
+    <version>0.293</version>
     <packaging>pom</packaging>
 
     <name>presto-root</name>
@@ -49,7 +49,7 @@
         <dep.slice.version>0.38</dep.slice.version>
         <dep.testing-mysql-server-5.version>0.6</dep.testing-mysql-server-5.version>
         <dep.aws-sdk.version>1.11.697</dep.aws-sdk.version>
-        <dep.okhttp.version>3.9.0</dep.okhttp.version>
+        <dep.okhttp.version>4.9.2</dep.okhttp.version>
         <dep.jdbi3.version>3.4.0</dep.jdbi3.version>
         <dep.oracle.version>19.3.0.0</dep.oracle.version>
         <dep.drift.version>1.33</dep.drift.version>
@@ -66,9 +66,9 @@
         <dep.gcs.version>1.9.17</dep.gcs.version>
         <dep.alluxio.version>2.7.3</dep.alluxio.version>
         <dep.slf4j.version>1.7.32</dep.slf4j.version>
-        <dep.kafka.version>2.3.1</dep.kafka.version>
+        <dep.kafka.version>3.9.1</dep.kafka.version>
         <dep.pinot.version>0.10.0</dep.pinot.version>
-        <dep.druid.version>0.19.0</dep.druid.version>
+        <dep.druid.version>25.0.0</dep.druid.version>
         <dep.jaxb.version>2.3.1</dep.jaxb.version>
         <dep.hudi.version>0.11.0</dep.hudi.version>
         <dep.testcontainers.version>1.15.1</dep.testcontainers.version>
@@ -85,7 +85,7 @@
         <air.test.parallel>methods</air.test.parallel>
         <air.test.thread-count>2</air.test.thread-count>
         <air.test.jvmsize>4g</air.test.jvmsize>
-        <grpc.version>1.35.0</grpc.version>
+        <grpc.version>1.75.0</grpc.version>
 
         <air.javadoc.lint>-missing</air.javadoc.lint>
     </properties>
@@ -508,7 +508,7 @@
             <dependency>
                 <groupId>com.google.protobuf</groupId>
                 <artifactId>protobuf-java</artifactId>
-                <version>3.14.0</version>
+                <version>3.25.5</version>
             </dependency>
 
             <dependency>
@@ -748,7 +748,7 @@
             <dependency>
                 <groupId>org.apache.hive</groupId>
                 <artifactId>hive-llap-common</artifactId>
-                <version>2.3.4</version>
+                <version>4.0.0</version>
                 <exclusions>
                     <exclusion>
                         <groupId>org.apache.hive</groupId>
@@ -842,7 +842,7 @@
             <dependency>
                 <groupId>io.airlift</groupId>
                 <artifactId>aircompressor</artifactId>
-                <version>0.15</version>
+                <version>2.0.3</version>
             </dependency>
 
             <dependency>
@@ -1088,7 +1088,7 @@
             <dependency>
                 <groupId>com.h2database</groupId>
                 <artifactId>h2</artifactId>
-                <version>1.4.199</version>
+                <version>2.2.220</version>
             </dependency>
 
             <dependency>
@@ -1149,7 +1149,7 @@
             <dependency>
                 <groupId>org.postgresql</groupId>
                 <artifactId>postgresql</artifactId>
-                <version>42.3.3</version>
+                <version>42.3.9</version>
             </dependency>
 
             <dependency>
@@ -1599,7 +1599,7 @@
             <dependency>
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpclient</artifactId>
-                <version>4.5.5</version>
+                <version>4.5.14</version>
             </dependency>
 
             <dependency>
@@ -1817,7 +1817,7 @@
             <dependency>
                 <groupId>org.xerial.snappy</groupId>
                 <artifactId>snappy-java</artifactId>
-                <version>1.1.7.1</version>
+                <version>1.1.10.4</version>
             </dependency>
 
             <dependency>
@@ -1835,7 +1835,7 @@
             <dependency>
                 <groupId>org.apache.zookeeper</groupId>
                 <artifactId>zookeeper</artifactId>
-                <version>3.4.14</version>
+                <version>3.8.4</version>
                 <exclusions>
                     <exclusion>
                         <artifactId>jline</artifactId>
